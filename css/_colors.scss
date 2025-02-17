@@ -1,0 +1,11 @@
+$dark-purple: #1E1825;
+$light-purple: #BF9ACA;
+$fit-blue: #96C5B0;
+$fit-orange: #FF875C;
+:root {
+    --nutrifit: linear-gradient(90deg, rgba(150,197,176,1) 0%, rgba(255,135,92,1) 100%);
+    --actidash: linear-gradient(90deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 100%);
+    --dashfed: linear-gradient(90deg, rgba(191,154,202,1) 0%, rgba(150,197,176,1) 100%);
+    --actidashnooch-right: linear-gradient(90deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 50%, rgba(150,197,176,1) 100%);
+    --actidashnooch-top: linear-gradient(180deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 50%, rgba(150,197,176,1) 100%);
+}

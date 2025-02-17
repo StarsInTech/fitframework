@@ -1,0 +1,17 @@
+@use 'colors' as *;
+
+.smn-button {
+    background: var(--dashfed);
+    border-radius: 5px;
+    border: none;
+}
+
+.smn-button:hover, .smn-button:focus {
+    background: $dark-purple;
+    -webkit-box-shadow: inset 0px 0px 0px 10px #000000; 
+    box-shadow: inset 0px 0px 0px 2px $fit-blue;
+    color: $fit-blue;
+}
+
+// orange to purple for square
+// full width orange purple blue hover is purple

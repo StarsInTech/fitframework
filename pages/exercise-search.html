@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Search</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Search form & category dropdowns -->
+    <form action="GET">
+        <label for="exercise-search">Exercise Search</label>
+        <input type="text" name="exercise-search" id="exercise-search" placeholder="search exercises...">
+        <div>
+            <select name="exercise-type" id="exercise-type">
+                <option value="exercise-type-placeholder">Placeholder</option>
+            </select>
+            <select name="equipment-needed" id="equipment-needed">
+                <option value="equipment-needed">Placeholder</option>
+            </select>
+            <select name="muscles-used" id="muscles-used">
+                <option value="muscles-used-placeholder">Placeholder</option>
+            </select>
+        </div>
+    </form>
+    <!-- Exercise Result (to be looped throught w data from database) -->
+    <div>
+        <!-- <img src="" alt=""> -->
+        <h2>(ExerciseResult)</h2>
+        <p>(MusclesUsed)</p>
+        <p>(ExerciseType)</p>
+        <p>(EquipmentNeeded)</p>
+        <button class="sme-button">Go</button>
+    </div>
+</body>
+
+</html>

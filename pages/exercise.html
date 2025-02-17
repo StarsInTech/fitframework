@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <!-- Workout count tracker -->
+        <section class="completed-workouts-counter">
+            <h2>Workouts Completed This Week</h2>
+            <div></div>
+        </section>
+        <!-- Search form & category dropdowns -->
+        <form action="GET">
+            <label for="exercise-search">Exercise Search</label>
+            <input type="text" name="exercise-search" id="exercise-search" placeholder="search exercises...">
+            <div>
+                <select name="exercise-type" id="exercise-type">
+                    <option value="exercise-type-placeholder">Placeholder</option>
+                </select>
+                <select name="equipment-needed" id="equipment-needed">
+                    <option value="equipment-needed">Placeholder</option>
+                </select>
+                <select name="muscles-used" id="muscles-used">
+                    <option value="muscles-used-placeholder">Placeholder</option>
+                </select>
+            </div>
+        </form>
+        <!-- Exercise Log -->
+        <section id="exercise-log">
+            <h2>(DateVariable) Exercise Log</h2>
+            <!-- This will need to be looped through -->
+            <div id="single-exercise">
+                <p>(exercise-one)</p>
+                <div>
+                    <p>#lbs</p>
+                    <p>#reps</p>
+                    <p>#sets</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

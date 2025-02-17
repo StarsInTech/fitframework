@@ -1,0 +1,19 @@
+@use "colors" as *;
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  font-family: "Source Sans 3", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  button {
+    font-family: "Hammersmith One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}

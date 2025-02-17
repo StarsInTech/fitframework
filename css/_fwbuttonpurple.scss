@@ -1,0 +1,16 @@
+@use 'colors' as *;
+
+.fwp-button {
+    background: var(--actidashnooch-right);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.fwp-button:hover, .fwp-button:focus {
+    background: $dark-purple;
+    -webkit-box-shadow: inset 0px 0px 0px 10px #000000; 
+    box-shadow: inset 0px 0px 0px 2px $light-purple;
+    color: $light-purple;
+}

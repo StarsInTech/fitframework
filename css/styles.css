@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+:root {
+  --nutrifit: linear-gradient(90deg, rgba(150,197,176,1) 0%, rgba(255,135,92,1) 100%);
+  --actidash: linear-gradient(90deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 100%);
+  --dashfed: linear-gradient(90deg, rgba(191,154,202,1) 0%, rgba(150,197,176,1) 100%);
+  --actidashnooch-right: linear-gradient(90deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 50%, rgba(150,197,176,1) 100%);
+  --actidashnooch-top: linear-gradient(180deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 50%, rgba(150,197,176,1) 100%);
+}
+
+* {
+  font-family: "Source Sans 3", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* button {
+  font-family: "Hammersmith One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  padding: 1.5rem;
+  background-color: #1E1825;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+nav ul a {
+  text-decoration: none;
+}
+nav ul a li {
+  text-align: center;
+}
+.sme-button {
+  background: var(--actidash);
+  border-radius: 5px;
+  border: none;
+}
+
+.sme-button:hover, .sme-button:focus {
+  background: #1E1825;
+  box-shadow: inset 0px 0px 0px 2px #FF875C;
+  color: #FF875C;
+}
+
+.smn-button {
+  background: var(--dashfed);
+  border-radius: 5px;
+  border: none;
+}
+
+.smn-button:hover, .smn-button:focus {
+  background: #1E1825;
+  box-shadow: inset 0px 0px 0px 2px #96C5B0;
+  color: #96C5B0;
+}
+
+.sqb-button {
+  background: var(--dashfed);
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+}
+
+.sqb-button:hover, .sqb-button:focus {
+  background: #1E1825;
+  box-shadow: inset 0px 0px 0px 2px #96C5B0;
+  color: #96C5B0;
+}
+
+.sqo-button {
+  background: var(--actidash);
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+}
+
+.sqo-button:hover, .sqo-button:focus {
+  background: #1E1825;
+  box-shadow: inset 0px 0px 0px 2px #FF875C;
+  color: #FF875C;
+}
+
+.fwb-button {
+  background: var(--dashfed);
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.fwb-button:hover, .fwb-button:focus {
+  background: #1E1825;
+  box-shadow: inset 0px 0px 0px 2px #96C5B0;
+  color: #96C5B0;
+}
+
+.fwp-button {
+  background: var(--actidashnooch-right);
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.fwp-button:hover, .fwp-button:focus {
+  background: #1E1825;
+  box-shadow: inset 0px 0px 0px 2px #BF9ACA;
+  color: #BF9ACA;
+}/*# sourceMappingURL=styles.css.map */
