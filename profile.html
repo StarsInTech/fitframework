@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 50 50">
+                <circle cx="25" cy="25" r="25" fill="url(#a)" />
+                <path
+                    d="M25 25a7.28 7.28 0 1 0 0-14.56A7.28 7.28 0 0 0 25 25m4.85-7.28a4.85 4.85 0 1 1-9.7 0 4.85 4.85 0 0 1 9.7 0m9.71 19.41c0 2.43-2.43 2.43-2.43 2.43H12.87s-2.43 0-2.43-2.43c0-2.42 2.43-9.7 14.56-9.7s14.56 7.28 14.56 9.7m-2.43 0c0-.6-.37-2.4-2.02-4.04-1.58-1.59-4.56-3.24-10.11-3.24s-8.53 1.65-10.11 3.24a6.5 6.5 0 0 0-2.02 4.03z"
+                    fill="#1E1825" />
+                <defs>
+                    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="rotate(51.57 1.18 7.73)scale(58.7218)">
+                        <stop stop-color="#FF875C" />
+                        <stop offset=".47" stop-color="#BF9ACA" />
+                        <stop offset="1" stop-color="#96C5B0" />
+                    </radialGradient>
+                </defs>
+            </svg>
+            <h2>(NameMcName)</h2>
+            <p>(UserEmail)</p>
+            <p>(UserPassword)</p>
+        </section>
+        <form action="POST">
+            <legend>Goal Settings</legend>
+            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 25">
+                    <path
+                        d="M12.5 0A12.5 12.5 0 1 0 25 12.5 12.444 12.444 0 0 0 12.5 0m0 22.727A10.227 10.227 0 1 1 22.727 12.5 10.284 10.284 0 0 1 12.5 22.727"
+                        fill="#fff" />
+                    <path
+                        d="M12.5 10.227a1.136 1.136 0 0 0-1.136 1.137v6.818a1.136 1.136 0 0 0 2.272 0v-6.818a1.136 1.136 0 0 0-1.136-1.137m0-2.272a1.136 1.136 0 1 0 0-2.273 1.136 1.136 0 0 0 0 2.273"
+                        fill="#fff" />
+                </svg>How should I decide what my goals are?</a>
+            <div><input type="number" name="calories-goal" id="cals-per-day">
+                <p>cals/day</p>
+            </div>
+            <label for="macros-split">Macros Split:</label>
+            <div>
+                <input type="number" name="protein-goal" id="protein-goal">
+                <input type="number" name=fat-goal" id="fat-goal">
+                <input type="number" name="carbs-goal" id="carbs-goal">
+            </div>
+            <div>
+                <label for="workouts-goal">workouts/week</label>
+                <input type="number" name="workouts-goal" id="workouts-goal">
+            </div>
+            <label for="weights-unit">weights in:</label>
+            <select name="weights-unit" id="weights-unit">
+                <option value="weights-unit-placeholder">Placeholder</option>
+            </select>
+            <input type="submit" value="Save Goal Settings">
+        </form>
+    </main>
+</body>
+
+</html>

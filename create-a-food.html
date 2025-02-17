@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A Food</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <form action="POST">
+            <input type="text" name="created-food-name" id="created-food-name" placeholder="Enter Food Name">
+            <div>
+                <input type="number" name="created-food-calories" id="created-food-calories"
+                    placeholder="Enter Calories">
+                <p>per</p>
+                <input type="number" name="quantity-for-cal-measurement" id="quantity-for-cal-measurement"
+                    placeholder="Quantity">
+                <select name="unit-of-measurement" id="unit-of-measurement">
+                    <option value="unit">Unit</option>
+                </select>
+            </div>
+            <label for="created-food-protein">Enter Protein</label>
+            <input type="number" name="created-food-protein" id="created-food-protein" placeholder="Enter Protein">
+            <label for="created-food-carbs">Enter Carbs</label>
+            <input type="number" name="created-food-carbs" id="created-food-carbs" placeholder="Enter Carbs">
+            <label for="created-food-fat">Enter Fat</label>
+            <input type="number" name="created-food-fat" id="created-food-fat" placeholder="Enter Fat">
+            <input type="submit" value="Create Food">
+        </form>
+    </main>
+</body>
+
+</html>

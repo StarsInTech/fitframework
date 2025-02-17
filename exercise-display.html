@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(ExerciseName)</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Search form & category dropdowns -->
+    <main>
+        <form action="GET">
+            <label for="exercise-search">Exercise Search</label>
+            <input type="text" name="exercise-search" id="exercise-search" placeholder="search exercises...">
+            <div>
+                <select name="exercise-type" id="exercise-type">
+                    <option value="exercise-type-placeholder">Placeholder</option>
+                </select>
+                <select name="equipment-needed" id="equipment-needed">
+                    <option value="equipment-needed">Placeholder</option>
+                </select>
+                <select name="muscles-used" id="muscles-used">
+                    <option value="muscles-used-placeholder">Placeholder</option>
+                </select>
+            </div>
+        </form>
+        <!-- Exercise information (will display info from Exercise API) -->
+        <section>
+            <!-- <img src="()" alt=""> if we are indeed using photos -->
+            <p>(MusclesUsed)</p>
+            <p>(EquipmentNeeded)</p>
+            <p>(exerciseType)</p>
+            <p>Instructions:</p>
+            <!-- Instruction li generated with loop? -->
+            <ol>
+                <li>(Instruction1)</li>
+            </ol>
+            <!-- exercise log form -->
+            <form action="POST">
+                <label for="weight">Weight</label>
+                <input type="number" name="weight" id="weight" placeholder="weight">
+                <label for="reps">Repetitions</label>
+                <input type="number" name="reps" id="reps" placeholder="reps">
+                <label for="Sets">Sets</label>
+                <input type="number" name="sets" id="sets" placeholder="sets">
+                <input type="submit" value="Log" class="">
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
