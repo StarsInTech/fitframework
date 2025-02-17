@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Food</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <!-- Foods Searchbar -->
+        <form action="GET">
+            <label for="food-search">Search foods:</label>
+            <input type="text" name="food-search" id="food-search" placeholder="search foods...">
+        </form>
+        <!-- Create a food button -->
+        <button>Placeholder</button>
+
+        <section id="created-foods">
+            <!-- Created foods section -->
+            <h2>Created Foods</h2>
+            <section>
+                <h3>(CreatedFood)</h3>
+                <p>(Calories)</p>
+                <p>(Macros)</p>
+                <form action="POST">
+                    <label for="measurement">Measurement:</label>
+                    <input type="number" name="measurement" id="measurement">
+                    <!-- should display a default -->
+                    <select name="unit-of-measurement" id="unit-of-measurement">
+                        <option value="g">g</option>
+                        <option value="oz">oz</option>
+                        <option value="etc">etc</option>
+                    </select>
+                    <input type="submit" value="Log" class="smn-button">
+                </form>
+            </section>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

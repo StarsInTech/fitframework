@@ -1,0 +1,14 @@
+@use 'colors' as *;
+
+.sme-button {
+    background: var(--actidash);
+    border-radius: 5px;
+    border: none;
+}
+
+.sme-button:hover, .sme-button:focus {
+    background: $dark-purple;
+    -webkit-box-shadow: inset 0px 0px 0px 10px #000000; 
+    box-shadow: inset 0px 0px 0px 2px $fit-orange;
+    color: $fit-orange;
+}

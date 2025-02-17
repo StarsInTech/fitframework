@@ -1,4 +1,4 @@
-import "./styles.scss";
+import "../css/styles.scss";
 
 // Import the function we need to connect to firebase
 import { initializeApp } from 'firebase/app'
